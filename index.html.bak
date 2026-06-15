@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ddamba Brighton Paul | Software Developer</title>
+    <meta name="description"
+        content="Portfolio of Ddamba Brighton Paul, a Computer Science Student and Software Developer.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="profile-styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Space+Grotesk:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="background-animation"></div>
+
+    <nav class="navbar glass">
+        <div class="logo">DBP<span class="accent">.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-controls">
+            <button id="theme-toggle" aria-label="Toggle Dark Mode">
+                <i class="fas fa-moon"></i>
+            </button>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <p class="greeting fade-in">Hello, I'm</p>
+            <h1 class="name slide-up">Ddamba Brighton Paul</h1>
+            <h2 class="role slide-up delay-1">I am a <span class="typing-text"></span></h2>
+            <p class="hero-description slide-up delay-2">
+                Enthusiastic Computer Science student at Busitema University.
+                Passionate about building software, troubleshooting systems, and creating user-friendly web interfaces.
+            </p>
+            <div class="hero-buttons slide-up delay-3">
+                <a href="#contact" class="btn primary-btn">Get In Touch</a>
+                <a href="#projects" class="btn secondary-btn">View Work</a>
+            </div>
+        </div>
+        <div class="hero-visual fade-in delay-2">
+            <div class="profile-container">
+                <div class="profile-glow"></div>
+                <div class="profile-border"></div>
+                <img src="images/profile.jpg" alt="Ddamba Brighton Paul" class="profile-img">
+
+                <!-- Floating tech badges -->
+                <div class="tech-badge badge-1 glass">
+                    <i class="fab fa-java"></i>
+                </div>
+                <div class="tech-badge badge-2 glass">
+                    <i class="fas fa-code"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title fade-up">About <span class="accent">Me</span></h2>
+            <div class="about-grid">
+                <div class="about-text glass fade-up">
+                    <p>
+                        I am a dedicated <strong>Computer Science student</strong> at Busitema University (Expected
+                        Graduation: 2027) with a current CGPA of <strong>4.37</strong>.
+                    </p>
+                    <p>
+                        My objective is to apply my skills in software installation, maintenance, web design, and
+                        computer networks while contributing to reputable organizations. I have strong analytical skills
+                        and am capable of troubleshooting and resolving technical issues efficiently.
+                    </p>
+                    <div class="info-list">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Entebbe, Uganda</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>Brightonpaul003@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <span>0742956235</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="education-card glass fade-up delay-1">
+                    <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                    <div class="timeline-item">
+                        <span class="date">Expected 2027</span>
+                        <h4>Bachelor of Science in Computer Science</h4>
+                        <p class="institution">Busitema University</p>
+                        <p class="gpa">Current CGPA: 4.37</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title fade-up">Technical <span class="accent">Skills</span></h2>
+
+            <div class="skills-grid">
+                <!-- Group 1 -->
+                <div class="skill-category glass fade-up">
+                    <h3><i class="fas fa-code"></i> Programming & Web</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">C / C++ / C#</span>
+                        <span class="tag">HTML5 / CSS3</span>
+                        <span class="tag">PHP</span>
+                        <span class="tag">Bootstrap</span>
+                    </div>
+                </div>
+
+                <!-- Group 2 -->
+                <div class="skill-category glass fade-up delay-1">
+                    <h3><i class="fas fa-database"></i> Data & Tools</h3>
+                    <div class="skill-tags">
+                        <span class="tag">MySQL</span>
+                        <span class="tag">SQL / SQLite</span>
+                        <span class="tag">MS Access</span>
+                        <span class="tag">VS Code</span>
+                        <span class="tag">Visual Studio</span>
+                        <span class="tag">PyCharm</span>
+                        <span class="tag">Anaconda</span>
+                    </div>
+                </div>
+
+                <!-- Group 3 -->
+                <div class="skill-category glass fade-up delay-2">
+                    <h3><i class="fas fa-tools"></i> IT Operations</h3>
+                    <ul class="skill-list">
+                        <li>Software Installation & Maintenance</li>
+                        <li>Hardware Troubleshooting & Repair</li>
+                        <li>Network Configuration & Cabling</li>
+                        <li>Inventory Management</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title fade-up">Experience & <span class="accent">Leadership</span></h2>
+
+            <div class="timeline">
+                <div class="timeline-block fade-up">
+                    <div class="marker"></div>
+                    <div class="timeline-content glass">
+                        <h3>Data Entry & Computer Maintenance</h3>
+                        <span class="date">May 2024 – July 2024 (Recess Term)</span>
+                        <ul>
+                            <li>Troubleshot computers, routers, and cables; performed repairs and replacements.</li>
+                            <li>Managed inventory tracking and organized desktop workspaces.</li>
+                            <li>Connected RJ45 data cables and ensured network connectivity.</li>
+                            <li>Handled data verification and integrity checks.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-block fade-up delay-1">
+                    <div class="marker"></div>
+                    <div class="timeline-content glass">
+                        <h3>Class Coordinator</h3>
+                        <span class="date">2023 – Present | Busitema University</span>
+                        <p>Organize class activities and facilitate communication between students and faculty members.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-block fade-up delay-2">
+                    <div class="marker"></div>
+                    <div class="timeline-content glass">
+                        <h3>Secretary of Publicity</h3>
+                        <span class="date">2023 – Present | Baganda Nkobazambogo Students' Association</span>
+                        <p>Responsible for promoting events and initiatives through various media channels.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title fade-up">Featured <span class="accent">Projects</span></h2>
+            <div class="projects-grid">
+
+                <div class="project-card glass fade-up">
+                    <div class="project-image">
+                        <div class="placeholder-img bank-img">
+                            <i class="fas fa-university"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Bank Management System</h3>
+                        <p class="tech-stack">ASP.NET • C# • Visual Studio • SQL</p>
+                        <p>A comprehensive banking system developed during recess. Handled front-end development and
+                            database coordination.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn-sm">View Details</a>
+                            <a href="#" class="btn-sm outline"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Placeholder for future projects -->
+                <div class="project-card glass fade-up delay-1">
+                    <div class="project-image">
+                        <div class="placeholder-img code-img">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Portfolio Website</h3>
+                        <p class="tech-stack">HTML5 • CSS3 • JavaScript</p>
+                        <p>This modern, responsive personal portfolio website featuring glassmorphism design and smooth
+                            animations.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn-sm">Live Demo</a>
+                            <a href="#" class="btn-sm outline"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title fade-up">Get In <span class="accent">Touch</span></h2>
+            <div class="contact-wrapper glass fade-up">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>Feel free to reach out for collaborations or opportunities.</p>
+                    <div class="contact-details">
+                        <a href="mailto:Brightonpaul003@gmail.com" class="contact-item">
+                            <i class="fas fa-envelope accent-icon"></i>
+                            <span>Brightonpaul003@gmail.com</span>
+                        </a>
+                        <a href="tel:0742956235" class="contact-item">
+                            <i class="fas fa-phone accent-icon"></i>
+                            <span>0742956235</span>
+                        </a>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt accent-icon"></i>
+                            <span>Entebbe, Uganda</span>
+                        </div>
+                    </div>
+
+                    <div class="references">
+                        <h4>Reference</h4>
+                        <p><strong>Dr. Lukyamuzi Andrew</strong><br>Acting Head of Computer Department<br>Busitema
+                            University<br>0772547745</p>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-btn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-btn"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-btn"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" required placeholder=" ">
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" required placeholder=" ">
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" required placeholder=" "></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn primary-btn block-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Ddamba Brighton Paul. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
